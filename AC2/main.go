@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"AC2/geometria"
+	"fmt"
 	"math"
 	"math/rand"
 )
@@ -61,6 +61,7 @@ func main() {
 	fmt.Scanf("%f", &base)
 
 	fmt.Print("Digite a altura do retângulo: ")
+	fmt.Scanf("%f", &altura)
 	fmt.Scanf("%f", &altura)
 
 	retangulo := geometria.Retangulo{Base: base, Altura: altura}
