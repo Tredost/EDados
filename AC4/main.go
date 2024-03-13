@@ -47,8 +47,8 @@ func main() {
 
 	// EXERCÍCIO 2
 
-	array := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	alvo := 10
+	array := []int{1, 2, 3, 4, 5, 7}
+	alvo := 7
 	num1, num2 := encontraPar(array, alvo)
 	if num1 == -1 && num2 == -1 {
 		fmt.Println("Nenhum par encontrado")
