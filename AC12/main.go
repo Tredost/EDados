@@ -12,7 +12,7 @@ func main() {
         if err != nil {
             break
         }
-		fmt.Scan(&N, &H, &C, &L)
+		fmt.Scan(&H, &C, &L)
 		base_rampa = C * N
 		altura_rampa = H * N
 		largura_rampa = L
